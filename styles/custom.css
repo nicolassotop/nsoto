@@ -217,7 +217,7 @@ body{background-image: none; background-position: initial initial; background-re
 
 #divLogo{margin-top: 9px; margin-bottom: 0px; margin-left: -3px;}
 
-#divSiteTitle{font-family: 'Century Gothic', sans-serif; color: rgb(176, 42, 154); font-size: 28px; text-shadow: rgba(0, 0, 0, 0.2) 2px 5px 9px, rgba(255, 255, 255, 0.298039) 0px -5px 35px; line-height: 42px; letter-spacing: 2px; text-transform: uppercase; font-weight: normal; font-style: normal; padding-left: 0px; padding-right: 0px;}
+#divSiteTitle{font-family: 'Century Gothic', sans-serif; color: rgb(255, 69, 0); font-size: 28px; text-shadow: rgba(0, 0, 0, 0.2) 2px 5px 9px, rgba(255, 255, 255, 0.298039) 0px -5px 35px; line-height: 42px; letter-spacing: 2px; text-transform: uppercase; font-weight: normal; font-style: normal; padding-left: 0px; padding-right: 0px;}
 
 #divTagLine {font-family: 'Century Gothic', sans-serif; font-size: 12px; text-transform: uppercase; letter-spacing: 5px; line-height: 22px; color: rgb(255, 255, 255); text-shadow: none; padding-left: 3px; padding-right: 3px; font-weight: normal; font-style: normal;}
 
@@ -340,15 +340,15 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'So
 
 .navbar .dropdown-menu li > a, .dropdown-menu li > a, .navbar .nav-pills .open .dropdown-toggle {color: rgb(255, 255, 255);}
 
-.navbar .dropdown-menu li > a:hover, .navbar .dropdown-menu .active > a, .navbar .dropdown-menu .active > a:hover, .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a, .navbar .nav-pills .open a.dropdown-toggle:hover {filter:none;color:rgb(255, 255, 255);background-color:rgb(176, 42, 154);background-image:none}
+.navbar .dropdown-menu li > a:hover, .navbar .dropdown-menu .active > a, .navbar .dropdown-menu .active > a:hover, .dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a, .navbar .nav-pills .open a.dropdown-toggle:hover {filter:none;color:rgb(255, 255, 255);background-color:rgb(255, 69, 0);background-image:none}
 
 .navbar .nav-pills > li > a {margin-left: 2px; margin-right: 2px; padding: 35px; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; color: rgb(255, 255, 255); border-bottom-style: none;}
 
-.navbar .nav-pills > li > a:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle, .navbar .nav-pills > li > a:focus {color: rgb(255, 255, 255); background-color: rgb(176, 42, 154); border-bottom-style: none;}
+.navbar .nav-pills > li > a:hover, .navbar .nav li.dropdown.open.active > .dropdown-toggle, .navbar .nav-pills > li > a:focus {color: rgb(255, 255, 255); background-color: rgb(255, 69, 0); border-bottom-style: none;}
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle {background:none}
 
-.navbar .nav-pills > .active > a, .navbar .nav-pills > .active > a:hover, .navbar .nav-pills li.dropdown.open > .dropdown-toggle, .navbar .nav-pills li.dropdown.active > .dropdown-toggle {color: rgb(255, 255, 255); background-color: rgb(176, 42, 154); border-bottom-style: none;}
+.navbar .nav-pills > .active > a, .navbar .nav-pills > .active > a:hover, .navbar .nav-pills li.dropdown.open > .dropdown-toggle, .navbar .nav-pills li.dropdown.active > .dropdown-toggle {color: rgb(255, 255, 255); background-color: rgb(255, 69, 0); border-bottom-style: none;}
 
 .navbar .ddmenu {margin-top:-2px;margin-bottom:0px}
 
