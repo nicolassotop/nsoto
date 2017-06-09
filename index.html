@@ -2,16 +2,13 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Nicolás Soto</title>
+    <title>Nicolás Soto Pérez</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">  
-	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"> <!-- Remove this Robots Meta Tag, to allow indexing of site -->
-    
-    <link href="scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="scripts/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <!-- gallery -->
-    <link rel="stylesheet" href="scripts/gallery/blueimp-gallery.min.css">
+    <meta name="author" content="">
+
+    <link href="scripts/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="scripts/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -30,37 +27,28 @@
         <link rel="stylesheet" href="scripts/fontawesome/css/font-awesome-ie7.min.css">
     <![endif]-->
 
-<link href="scripts/carousel/style.css" rel="stylesheet" type="text/css" />
+    <link href="scripts/wookmark/css/style.css" rel="stylesheet" type="text/css" /><link href="scripts/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Palatino+Linotype" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 
     <link href="styles/custom.css" rel="stylesheet" type="text/css" />
 
-    <!-- bootstrap -->
-<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
 
-<!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="scripts/materialize/css/materialize.css"  media="screen,projection"/>
+    <!-- animate.css -->
+    <link rel="stylesheet" href="animate/animate.css" />
+    <link rel="stylesheet" href="animate/set.css" />
+
+    <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-
-<!-- animate.css -->
-<link rel="stylesheet" href="assets/animate/animate.css" />
-<link rel="stylesheet" href="assets/animate/set.css" />
-
-<!-- gallery -->
-<link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
-
-<!-- favicon -->
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
-
-<link rel="stylesheet" href="assets/style.css">
 
 </head>
 <body id="pageBody">
@@ -119,39 +107,25 @@
 <div id="contentOuterSeparator"></div>
 
 <div class="container">
+             
 
-    <div class="divPanel page-content">
-
-        <div class="row-fluid">
-
-                <div class="span12" id="divMain">
-
-            
-
-  <div class="carousel carousel-slider" data-indicators="true">
-    <a class="carousel-item" href="portfolio.html"><img src="styles/thumbs/1_800.jpg"></a>
-    <a class="carousel-item" href="portfolio.html"><img src="styles/thumbs/brujula_800.jpg"></a>
-    <a class="carousel-item" href="portfolio.html"><img src="styles/thumbs/dorso_800.jpg"></a>
-    <a class="carousel-item" href="portfolio.html"><img src="styles/thumbs/avantasia_03.jpg"></a>
-    <a class="carousel-item" href="portfolio.html"><img src="styles/thumbs/onslaught_01_800.jpg"></a>
-  </div>
-
-
-					
-                    <hr style="margin:45px 0 35px" />
+  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/250/250/nature/1"></a>
+    <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/2"></a>
+    <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/250/250/nature/3"></a>
+    <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/250/250/nature/4"></a>
+    <a class="carousel-item" href="#five!"><img src="http://lorempixel.com/250/250/nature/5"></a>
+  </div>	
                     
-                    
-                    
-                    </div>
 
-                </div>
+        
 
-            </div>
 
-        <div id="footerInnerSeparator"></div>
+
+    <div id="footerInnerSeparator"></div>
     </div>
 
-</div>
+
 
 <div id="footerOuterSeparator"></div>
 
@@ -226,17 +200,14 @@
 <script src="scripts/bootstrap/js/bootstrap.js" type="text/javascript"></script>
 
 
-
-<script src="scripts/carousel/jquery.carouFredSel-6.2.0-packed.js" type="text/javascript"></script>
-<script type="text/javascript">$('#list_photos').carouFredSel({ responsive: true, width: '100%', scroll: 2, items: {width: 320,visible: {min: 2, max: 6}} });</script>
-
-
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="scripts/materialize/js/materialize.min.js"></script>
 <script src="scripts/default.js" type="text/javascript"></script>
 
-<script type="text/javascript">$(document).ready(function(){$('.carousel').carousel();});</script>
-<script type="text/javascript">$(document).ready(function(){$('.carousel.carousel-slider').carousel({fullWidth: true});});</script>
+<script type="text/javascript"> $(document).ready(function(){
+      $('.carousel').carousel();
+    });</script>
+
     
 
 
