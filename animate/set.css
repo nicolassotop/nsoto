@@ -1,5 +1,6 @@
 .grid {
 	position: relative;
+	top: -100px;
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
@@ -10,8 +11,8 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 0;	/*change here for spacing*/	
-	width: 33.333333333%;
+	margin: 1px;	/*change here for spacing*/	
+	width: 33%;
 	text-align: center;
 	cursor: pointer;
 }
@@ -19,7 +20,7 @@
 .grid figure img {
 	position: relative;
 	display: block;
-	max-width: 102%;
+	max-width: 100%;
 	opacity: 1;
 }
 
